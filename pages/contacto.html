@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="keywords" content="restaurantes mas famosos de tigre, celestinos, glorias, restaurante de cazon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Las Glorias | Celestinos</title>
+</head>
+
+<body>
+    
+    <!-- barra de navegacion -->
+    <header>
+        <nav class="navegador navegador--noIndex">
+            <div class="tituloicono-nav">
+                <a href="#">
+                    <img class="icono-navbar" src="https://cdn-icons-png.flaticon.com/512/776/776443.png" alt="icono de restaurante">
+                    <h1>Mi Familia S.R.L</h1>
+                </a>
+            </div>
+            <ul class="navegador__lista">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./historia.html">Historia</a></li>
+                <li><a href="./recomendaciones.html">Platos</a></li>
+                <li><a href="./contacto.html" class="navegador__lista__item--visited">Contacto</a></li>
+                <li><a href="./locales.html">Locales</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <!-- cierre barra de navegacion -->
+    <!-- contenido principal - form -->
+    <main class="container">
+        <div class="contenedor__formulario">
+                <form action="" method="post">
+                    <h2>contactanos</h2>
+                    <label for="name">Nombre:</label>
+                    <input required type="text" name="name" id="name">
+                    <label for="telefono">Telefono:</label>
+                    <input required type="tel" name="telefono" id="telefono">
+                    <label for="email">Email:</label>
+                    <input required type="email" name="email" id="email">
+                    <label for="motivo">Motivo de consulta: </label>
+                    <select required name="motivo" id="">
+                        <option value="1">Reservas</option>
+                        <option value="2">Trabajos</option>
+                        <option value="3">Platos</option>
+                        <option value="4">Eventos</option>
+                    </select>
+                    <label for="consulta">Consulta:</label>
+                    <textarea name="consulta" id="" cols="30" rows="10" required></textarea>
+                    <div class="caja__boton--form">
+                    <input type="submit" class="boton boton--form" value="Enviar">
+                    </div>
+                </form>
+        </div>
+    </main>
+    <footer>
+        <h2>NUESTRAS REDES</h2>
+        <div class="footer">
+            <div>
+                <ul class="footer__lista">
+                    <li><i class="fas fa-map-pin"></i>Dirección: Av. Daniel Cazón 902, Tigre, Buenos Aires.</li>
+                    <li><i class="fa fa-phone"></i>Tel: 5197-4863</li>
+                    <li><i class="far fa-copyright"></i>Todos los derechos reservados.</li>
+                </ul>
+            </div>
+            <h2>MÁS INFORMACIÓN</h2>
+            <div>
+                <ul class="footer__lista--redes">
+                    <li class="footer__lista__item"><a href="https://www.instagram.com/lasglorias_celestinos"><i
+                                class="fa-brands fa-instagram fa-2x"></i>Instagram</a>
+                    </li>
+                    <li class="footer__lista__item"><a href="#"><i class="fa-brands fa-whatsapp fa-2x"></i>WhatsApp</a>
+                    </li>
+                    <li class="footer__lista__item"><a href="#"><i
+                                class="fa-brands fa-facebook-f fa-2x"></i>Facebook</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="https://kit.fontawesome.com/cb83e896c8.js" crossorigin="anonymous"></script>
+</html>
