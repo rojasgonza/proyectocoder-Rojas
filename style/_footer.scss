@@ -1,0 +1,59 @@
+footer h2 {
+    text-align: center;
+    background-color: rgba(158, 110, 57, 0.9);
+    color: #BFED45;
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 0;
+}
+
+.footer__lista--redes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    width: 60vw;
+}
+
+.footer__lista {
+    margin: 2vh 0;
+}
+
+.footer__lista--redes li a {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__lista li {
+    margin: 2px 2px;
+}
+
+.footer__lista li i {
+    margin: 0 2vw;
+}
+
+.footer h2 {
+    margin-top: 3%;
+    width: 100%;
+}
+
+@media (min-width:768px) {
+    .footer__lista--redes {
+        width: 50vw;
+    }
+
+}
+

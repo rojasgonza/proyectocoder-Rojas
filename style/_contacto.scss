@@ -1,0 +1,36 @@
+.contenedor__formulario form {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    
+}
+
+label,textarea {
+    margin: 2vh 0vw 0vw 0.5vh;
+}
+
+.caja__boton--form {
+    margin: 2vh 0;
+}
+
+.caja--centrada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:768px){
+
+    .contenedor__formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor__formulario form{
+        width: 50%;
+        height: 50%;
+        
+    }
+}
+
